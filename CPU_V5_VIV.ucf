@@ -1,0 +1,25 @@
+NET "select_segment[7]" LOC = "T17";
+NET "select_segment[6]" LOC = "T18";
+NET "select_segment[5]" LOC = "U17";
+NET "select_segment[4]" LOC = "U18";
+NET "select_segment[3]" LOC = "M14";
+NET "select_segment[2]" LOC = "N14";
+NET "select_segment[1]" LOC = "L14";
+NET "select_segment[0]" LOC = "M13";
+
+NET "select_bit[0]" LOC = "N16";
+NET "select_bit[1]" LOC = "N15";
+NET "select_bit[2]" LOC = "P18";
+NET "select_bit[3]" LOC = "P17";
+
+NET "clk" LOC = "V10";
+
+NET "clock" LOC = "B8";
+NET "clock" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "reset" LOC = "T10";
+NET "enable" LOC = "T9";
+NET "start" LOC = "V9";
+NET "select_y[3]" LOC = "T5";
+NET "select_y[2]" LOC = "V8";
+NET "select_y[1]" LOC = "U8";
+NET "select_y[0]" LOC = "N8";
